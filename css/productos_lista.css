@@ -1,0 +1,100 @@
+body {
+    font-family: 'Times New Roman', sans-serif;
+    background-color: #21445a;
+    margin: 0; 
+    padding: 0; 
+}
+.navbar {
+    overflow: hidden;
+    background-color: #21445a;
+    text-align: center;
+}
+
+.navbar a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #afcdff;
+}
+
+h1 {
+    text-align: center;
+    background-color: #21445a;
+    color: #ffffff;
+    padding: 15px;
+}
+
+/* Estilo para la tabla de productos */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f2f2f2;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Espacio adicional arriba de la tabla */
+}
+
+/* Estilo para las celdas de la tabla de productos */
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+/* Estilo para las celdas del encabezado de productos */
+th {
+    background-color: #5d7691;
+    color: #fff;
+    text-align: left;
+    padding: 15px;
+    font-weight: bold;
+}
+
+/* Estilo para las celdas de datos de productos */
+td {
+    padding: 10px;
+}
+
+/* Estilo para el botón "Crear nuevo producto" */
+.btn-create {
+    background-color: #3c6e9e;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-create:hover {
+    background-color: #1c355d;
+}
+
+/* Estilo para el botón "Eliminar" en la tabla de productos */
+.btn-delete {
+    background-color: #ff5c5c;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-delete:hover {
+    background-color: #d62929;
+}
+
+/* Puedes agregar estilos adicionales según sea necesario */

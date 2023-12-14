@@ -1,0 +1,106 @@
+/* Agrega estilos según tus necesidades */
+
+.navbar {
+    overflow: hidden;
+    background-color: #21445a;
+    text-align: center;
+}
+
+.navbar a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Times New Roman', sans-serif;
+    background-color: #21445a;
+    margin: 0; 
+    padding: 0; 
+}
+
+h1 {
+    text-align: center;
+    background-color: #21445a;
+    color: #fff;
+    padding: 15px;
+}
+
+form {
+    text-align: center;
+    margin: 20px auto; 
+    width: 80%; 
+    max-width: 800px; /* Ajusta el ancho máximo según tus necesidades */
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #21445a;
+    color: white;
+}
+
+input[type="number"] {
+    width: 50px; /* Ajusta el ancho según tus necesidades */
+}
+
+label {
+    margin-right: 10px;
+}
+
+#gran_total {
+    font-weight: bold;
+    font-size: 18px;
+    color: #21445a;
+}
+
+input[type="submit"] {
+    background-color: #21445a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #3e6781;
+}
+
+.error-message {
+    color: red;
+    display: block; /* Para que cada mensaje aparezca en una línea nueva */
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    color: #afcdff;
+}
